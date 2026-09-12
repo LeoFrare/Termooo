@@ -2,17 +2,17 @@
 
 Um jogo inspirado no Termo, desenvolvido em Python.
 
-O objetivo é descobrir uma palavra de **5 letras** em até **5 tentativas**.
+O objetivo é descobrir uma ou mais palavras de **5 letras** em um limite de **tentativas**.
 
 ## 🎮 Regras
 
-* A palavra secreta possui **5 letras**.
-* Você possui **5 tentativas** para descobrir a palavra.
+* As palavras secretas possuem **5 letras**.
+* Você tem **tentativas** para descobrir a palavra.
 * A palavra digitada precisa existir no vocabulário do jogo.
 * 🟩 **Verde:** a letra está correta e na posição correta.
 * 🟨 **Amarelo:** a letra existe na palavra, mas está na posição errada.
 * 🟥 **Vermelho:** a letra não está presente na palavra.
-* Você vence quando descobrir a palavra dentro do limite de tentativas.
+* Você vence quando descobrir as palavras dentro do limite de tentativas.
 
 ## 💻 Como executar
 
