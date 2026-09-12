@@ -9,6 +9,7 @@ O objetivo é descobrir uma ou mais palavras de **5 letras** em um limite de **t
 * As palavras secretas possuem **5 letras**.
 * Você tem **tentativas** para descobrir a palavra.
 * A palavra digitada precisa existir no vocabulário do jogo.
+* Não são consideradas palavras repetidas.
 * 🟩 **Verde:** a letra está correta e na posição correta.
 * 🟨 **Amarelo:** a letra existe na palavra, mas está na posição errada.
 * 🟥 **Vermelho:** a letra não está presente na palavra.
