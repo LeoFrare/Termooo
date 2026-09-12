@@ -101,7 +101,7 @@ while True:
                         print(espaco_entre_letras.join(linhas_palavras))
                         print(espaco_entre_jogadas.join(linhas_emojis))
       print(f'Palavras = {len(termooo)} | Tentativas = {limite + 1}')
-      print('Tente adivinhar a palavra: ')
+      print('Tente adivinhar a palavra: ' if len(termooo) == 1 else 'Tente adivinhar as palavras: ')
       def calcular_certos(a, b, c, d):
             for numero, ltr_tentativa in enumerate(jgr):
                   for indice, ltr_termo in enumerate(a[d]):
